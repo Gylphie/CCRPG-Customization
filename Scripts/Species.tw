@@ -1,498 +1,260 @@
-<<nobr>>
+<<if $family == "Canine">>
 
-<<if $familyN == 1>>
-	<<set $speciesN to random(1,9)>>
-	
-		<<if $speciesN == 1>>
-			<<set $species to "Dog">>
-			Your species is dog.
+	[[Dog|Creation Phase 1][$species to "Dog"]]
 
-		<<elseif $speciesN == 2>>
-			<<set $species to "Wolf">>
-			Your species is wolf.
-	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Fox">>
-			Your species is fox.
+	[[Wolf|Creation Phase 1][$species to "Wolf"]]
+
+	[[Fox|Creation Phase 1][$species to "Fox"]]
+
+	[[Coyote|Creation Phase 1][$species to "Coyote"]]
+
+	[[Maned Wolf|Creation Phase 1][$species to "Maned Wolf"]]
+
+	[[Jackal|Creation Phase 1][$species to "Jackal"]]
+
+	[[African Wild Dog|Creation Phase 1][$species to "African Wild Dog"]]
+
+	[[Tanuki|Creation Phase 1][$species to "Tanuki"]]
+
+	[[Dhole|Creation Phase 1][$species to "Dhole"]]	
 			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Coyote">>
-			Your species is coyote.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Maned Wolf">>
-			Your species is maned wolf.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Jackal">>
-			Your species is wolf.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "African Wild Dog">>
-			Your species is african wild dog.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Tanuki">>
-			Your species is tanuki.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Dhole">>
-			Your species is dhole.
-		<</if>>
 		
-<<elseif $familyN ==2>>
-	<<set $speciesN to random(1,13)>>
-
-		<<if $speciesN == 1>>
-			<<set $species to "Housecat">>
-			Your species is housecat.
-
-		<<elseif $speciesN == 2>>
-			<<set $species to "Tiger">>
-			Your species is tiger.
+<<elseif $family == "Feline">>
 	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Lion">>
-			Your species is lion.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Mountain Lion">>
-			Your species is mountain lion.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Cheetah">>
-			Your species is cheetah.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Leopard">>
-			Your species is leopard.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Jaguar">>
-			Your species is jaguar.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Panther">>
-			Your species is panther.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Snow Leopard">>
-			Your species is snow leopard.
-				
-		<<elseif $speciesN == 10>>
-			<<set $species to "Lynx">>
-			Your species is lynx.
-				
-		<<elseif $speciesN == 11>>
-			<<set $species to "Sabretooth">>
-			Your species is sabretooth.
-				
-		<<elseif $speciesN == 12>>
-			<<set $species to "Ocelot">>
-			Your species is ocelot.
-				
-		<<elseif $speciesN == 13>>
-			<<set $species to "Caracal">>
-			Your species is caracal.
-		<</if>>
+	[[Housecat|Creation Phase 1][$species to "Housecat"]]
 
-<<elseif $familyN == 3>>
-	<<set $speciesN to random(1,14)>>
+	[[Tiger|Creation Phase 1][$species to "Tiger"]]
 
-		<<if $speciesN == 1>>
-			<<set $species to "Alligator">>
-			Your species is alligator.
+	[[Lion|Creation Phase 1][$species to "Lion"]]
 
-		<<elseif $speciesN == 2>>
-			<<set $species to "Crocodile">>
-			Your species is crocodile.
-	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Python/Viper/Cobra">>
-			Your species is python/viper/cobra.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Constrictor">>
-			Your species is constrictor.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Iguana">>
-			Your species is iguana.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Bearded Dragon">>
-			Your species is bearded dragon.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Komodo Dragon">>
-			Your species is komodo dragon.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Gecko">>
-			Your species is gecko.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Frilled-Neck Lizard">>
-			Your species is frilled-neck lizard.
-				
-		<<elseif $speciesN == 10>>
-			<<set $species to "Monitor Lizard">>
-			Your species is monitor lizard.
-				
-		<<elseif $speciesN == 11>>
-			<<set $species to "Salamander">>
-			Your species is salamander.
-				
-		<<elseif $speciesN == 12>>
-			<<set $species to "Frog">>
-			Your species is frog.
-				
-		<<elseif $speciesN == 13>>
-			<<set $species to "T-Rex">>
-			Your species is T-Rex.
-						
-		<<elseif $speciesN == 14>>
-			<<set $species to "Raptor">>
-			Your species is raptor.
-						
-		<</if>>
+	[[Mountain Lion|Creation Phase 1][$species to "Mountain Lion"]]
+
+	[[Cheetah|Creation Phase 1][$species to "Cheetah"]]
+
+	[[Leopard|Creation Phase 1][$species to "Leopard"]]
+
+	[[Jaguar|Creation Phase 1][$species to "Jaguar"]]
+
+	[[Panther|Creation Phase 1][$species to "Panther"]]
+
+	[[Snow Leopard|Creation Phase 1][$species to "Snow Leopard"]]	
+
+	[[Lynx|Creation Phase 1][$species to "Lynx"]]	
+
+	[[Sabretooth|Creation Phase 1][$species to "Sabretooth"]]	
+
+	[[Ocelot|Creation Phase 1][$species to "Ocelot"]]	
+
+	[[Caracal|Creation Phase 1][$species to "Caracal"]]	
+
 		
-<<elseif $familyN == 4>>
-	<<set $speciesN to random(1,15)>>
 
-		<<if $speciesN == 1>>
-			<<set $species to "Horse">>
-			Your species is horse.
-
-		<<elseif $speciesN == 2>>
-			<<set $species to "Bull">>
-			Your species is bull.
+<<elseif $family == "Reptile/Amphibian">>
 	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Zebra">>
-			Your species is zebra.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Goat">>
-			Your species is goat.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Ram">>
-			Your species is ram.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Deer">>
-			Your species is deer.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Elk">>
-			Your species is elk.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Donkey">>
-			Your species is donkey.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Rhino">>
-			Your species is rhino.
+	[[Alligator|Creation Phase 1][$species to "Alligator"]]
+
+	[[Crocodile|Creation Phase 1][$species to "Crocodile"]]
+
+	[[Python/Viper/Cobra|Creation Phase 1][$species to "Python/Viper/Cobra"]]
+
+	[[Constrictor|Creation Phase 1][$species to "Constrictor"]]
+
+	[[Iguana|Creation Phase 1][$species to "Iguana"]]
+
+	[[Bearded Dragon|Creation Phase 1][$species to "Bearded Dragon"]]
+
+	[[Komodo Dragon|Creation Phase 1][$species to "Komodo Dragon"]]
+
+	[[Gecko|Creation Phase 1][$species to "Gecko"]]
+
+	[[Frilled-Neck Lizard|Creation Phase 1][$species to "Frilled-Neck Lizard"]]	
+
+	[[Monitor Lizard|Creation Phase 1][$species to "Monitor Lizard"]]	
+
+	[[Salamander|Creation Phase 1][$species to "Salamander"]]	
+
+	[[Frog|Creation Phase 1][$species to "Frog"]]	
+
+	[[T-Rex|Creation Phase 1][$species to "T-Rex"]]	
+
+	[[Raptor|Creation Phase 1][$species to "Raptor"]]	
 				
-		<<elseif $speciesN == 10>>
-			<<set $species to "Giraffe">>
-			Your species is giraffe.
-				
-		<<elseif $speciesN == 11>>
-			<<set $species to "Tapir">>
-			Your species is tapir.
-				
-		<<elseif $speciesN == 12>>
-			<<set $species to "Antelope">>
-			Your species is antelope.
-				
-		<<elseif $speciesN == 13>>
-			<<set $species to "Boar">>
-			Your species is boar.
-						
-		<<elseif $speciesN == 14>>
-			<<set $species to "Camel">>
-			Your species is camel.
-							
-		<<elseif $speciesN == 15>>
-			<<set $species to "Llama">>
-			Your species is llama.
-						
-		<</if>>
 		
-<<elseif $familyN == 5>>
-	<<set $speciesN to random(1,7)>>
-
-		<<if $speciesN == 1>>
-			<<set $species to "Orca">>
-			Your species is orca.
-
-		<<elseif $speciesN == 2>>
-			<<set $species to "Dolphin">>
-			Your species is dolphin.
+<<elseif $family == "Ungulate">>
 	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Seal">>
-			Your species is seal.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Sea Lion">>
-			Your species is sea lion.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Otter">>
-			Your species is otter.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Shark">>
-			Your species is shark.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Beaver">>
-			Your species is beaver.
-										
-		<</if>>
+	[[Horse|Creation Phase 1][$species to "Horse"]]
 
-<<elseif $familyN == 6>>
-	<<set $speciesN to random(1,10)>>
+	[[Bull|Creation Phase 1][$species to "Bull"]]
 
-		<<if $speciesN == 1>>
-			<<set $species to "Hawk/Falcon/Eagle">>
-			Your species is Hawk/Falcon/Eagle.
+	[[Zebra|Creation Phase 1][$species to "Zebra"]]
 
-		<<elseif $speciesN == 2>>
-			<<set $species to "Osprey">>
-			Your species is ospy.
+	[[Goat|Creation Phase 1][$species to "Goat"]]
+
+	[[Ram|Creation Phase 1][$species to "Ram"]]
+
+	[[Deer|Creation Phase 1][$species to "Deer"]]
+
+	[[Elk|Creation Phase 1][$species to "Elk"]]
+
+	[[Donkey|Creation Phase 1][$species to "Donkey"]]
+
+	[[Rhino|Creation Phase 1][$species to "Rhino"]]	
+
+	[[Giraffe|Creation Phase 1][$species to "Giraffe"]]	
+
+	[[Tapir|Creation Phase 1][$species to "Tapir"]]	
+
+	[[Antelope|Creation Phase 1][$species to "Antelope"]]	
+
+	[[Boar|Creation Phase 1][$species to "Boar"]]	
+
+	[[Camel|Creation Phase 1][$species to "Camel"]]
+
+	[[Llama|Creation Phase 1][$species to "Llama"]]
 	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Owl">>
-			Your species is owl.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Duck/Goose/Swan">>
-			Your species is duck/goose/swan.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Hummingbird">>
-			Your species is hummingbird.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Flamingo">>
-			Your species is flamingo.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Vulture">>
-			Your species is vulture.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Parrot">>
-			Your species is parrot.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Toucan">>
-			Your species is toucan.
-				
-		<<elseif $speciesN == 10>>
-			<<set $species to "Finch">>
-			Your species is finch.
-										
-		<</if>>
 		
-<<elseif $familyN == 7>>
-	<<set $speciesN to random(1,13)>>
-
-		<<if $speciesN == 1>>
-			<<set $species to "Rat/Mouse">>
-			Your species is rat/mouse.
-
-		<<elseif $speciesN == 2>>
-			<<set $species to "Rabbit">>
-			Your species is rabbit.
+<<elseif $family == "Marine">>
 	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Weasel">>
-			Your species is weasel.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Bat">>
-			Your species is bat.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Stoat">>
-			Your species is stoat.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Wolverine">>
-			Your species is wolverine.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Capybara">>
-			Your species is capybara.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Squirrel">>
-			Your species is squirrel.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Chipmunk">>
-			Your species is chipmunk.
-				
-		<<elseif $speciesN == 10>>
-			<<set $species to "Chinchilla">>
-			Your species is chinchilla.
-				
-		<<elseif $speciesN == 11>>
-			<<set $species to "Badger">>
-			Your species is badger.
-				
-		<<elseif $speciesN == 12>>
-			<<set $species to "Marten">>
-			Your species is marten.
-				
-		<<elseif $speciesN == 13>>
-			<<set $species to "Otter">>
-			Your species is otter.
-							
-		<</if>>
+
+	[[Orca|Creation Phase 1][$species to "Orca"]]
+
+	[[Dolphin|Creation Phase 1][$species to "Dolphin"]]
+
+	[[Seal|Creation Phase 1][$species to "Seal"]]
+
+	[[Sea Lion|Creation Phase 1][$species to "Sea Lion"]]
+
+	[[Otter|Creation Phase 1][$species to "Otter"]]
+
+	[[Shark|Creation Phase 1][$species to "Shark"]]
+
+	[[Beaver|Creation Phase 1][$species to "Beaver"]]
+
 		
-<<elseif $familyN == 8>>
-	<<set $speciesN to random(1,7)>>
 
-		<<if $speciesN == 1>>
-			<<set $species to "Kangaroo">>
-			Your species is kangaroo.
-
-		<<elseif $speciesN == 2>>
-			<<set $species to "Opossum">>
-			Your species is opossum.
+<<elseif $family == "Avian">>
 	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Bandicoot">>
-			Your species is bandicoot.
+
+	[[Hawk/Eagle/Falcon|Creation Phase 1][$species to "Hawk/Eagle/Falcon"]]
+
+	[[Osprey|Creation Phase 1][$species to "Osprey"]]
+
+	[[Owl|Creation Phase 1][$species to "Owl"]]
+
+	[[Duck/Goose/Swan|Creation Phase 1][$species to "Duck/Goose/Swan"]]
+
+	[[Hummingbird|Creation Phase 1][$species to "Hummingbird"]]
+
+	[[Flamingo|Creation Phase 1][$species to "Flamingo"]]
+
+	[[Vulture|Creation Phase 1][$species to "Vulture"]]
+
+	[[Parrot|Creation Phase 1][$species to "Parrot"]]
+
+	[[Toucan|Creation Phase 1][$species to "Toucan"]]	
+
+	[[Finch|Creation Phase 1][$species to "Finch"]]	
+
 			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Numbat">>
-			Your species is numbat.
+<<elseif $family == "Lapine/Mustelid/Rodent">>
+	
+	[[Rat/Mouse|Creation Phase 1][$species to "Rat/Mouse"]]
+
+	[[Rabbit|Creation Phase 1][$species to "Rabbit"]]
+
+	[[Weasel|Creation Phase 1][$species to "Weasel"]]
+
+	[[Bat|Creation Phase 1][$species to "Bat"]]
+
+	[[Stoat|Creation Phase 1][$species to "Stoat"]]
+
+	[[Wolverine|Creation Phase 1][$species to "Wolverine"]]
+
+	[[Capybara|Creation Phase 1][$species to "Capybara"]]	
+
+	[[Squirrel|Creation Phase 1][$species to "Squirrel"]]	
+
+	[[Chipmunk|Creation Phase 1][$species to "Chipmunk"]]	
+
+	[[Chinchilla|Creation Phase 1][$species to "Chinchilla"]]	
+
+	[[Badger|Creation Phase 1][$species to "Badger"]]	
+
+	[[Marten|Creation Phase 1][$species to "Marten"]]
+
+	[[Otter|Creation Phase 1][$species to "Otter"]]
+
 			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Tasmanian Devil">>
-			Your species is Tasmanian devil.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Wombat">>
-			Your species is wombat.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Koala">>
-			Your species is koala.
-										
-		<</if>>
+<<elseif $family == "Marsupial">>
+
+
+	[[Kangaroo|Creation Phase 1][$species to "Kangaroo"]]	
+
+	[[Opossum|Creation Phase 1][$species to "Opossum"]]	
+
+	[[Bandicoot|Creation Phase 1][$species to "Bandicoot"]]	
+
+	[[Numbat|Creation Phase 1][$species to "Numbat"]]	
+
+	[[Tasmanian Devil|Creation Phase 1][$species to "Tasmanian Devil"]]	
+
+	[[Wombat|Creation Phase 1][$species to "Wombat"]]
+
+	[[Koala|Creation Phase 1][$species to "Koala"]]
+
 		
-<<elseif $familyN == 9>>
-	<<set $speciesN to random(1,14)>>
+<<elseif $family == "Mythological">>
 
-		<<if $speciesN == 1>>
-			<<set $species to "Western Dragon">>
-			Your species is western dragon.
+	[[Western Dragon|Creation Phase 1][$species to "Western Dragon"]]
 
-		<<elseif $speciesN == 2>>
-			<<set $species to "Eastern Dragon">>
-			Your species is eastern dragon.
-	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Griffin">>
-			Your species is griffin.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Hydra">>
-			Your species is hydra.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Unicorn">>
-			Your species is unicorn.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Cerberus/Hellhound">>
-			Your species is Cerberus/Hellhound.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Catoblepas">>
-			Your species is catoblepas.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Manticore">>
-			Your species is manticore.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Sphinx">>
-			Your species is sphinx.
-				
-		<<elseif $speciesN == 10>>
-			<<set $species to "Minotaur">>
-			Your species is minotaur.
-				
-		<<elseif $speciesN == 11>>
-			<<set $species to "Satyr">>
-			Your species is satyr.
-				
-		<<elseif $speciesN == 12>>
-			<<set $species to "Demon">>
-			Your species is demon.
-				
-		<<elseif $speciesN == 13>>
-			<<set $species to "Phoenix">>
-			Your species is phoenix.
-						
-		<<elseif $speciesN == 14>>
-			<<set $species to "Anubian Jackal">>
-			Your species is Anubian jackal.
-							
-		<</if>>
+	[[Eastern Dragon|Creation Phase 1][$species to "Eastern Dragon"]]
+
+	[[Griffin|Creation Phase 1][$species to "Griffin"]]
+
+	[[Hydra|Creation Phase 1][$species to "Hydra"]]
+
+	[[Unicorn|Creation Phase 1][$species to "Unicorn"]]
+
+	[[Cerberus/Hellhound|Creation Phase 1][$species to "Cerberus/Hellhound"]]
+
+	[[Catoblepas|Creation Phase 1][$species to "Catoblepas"]]
+
+	[[Manticore|Creation Phase 1][$species to "Manticore"]]	
+
+	[[Sphinx|Creation Phase 1][$species to "Sphinx"]]	
+
+	[[Minotaur|Creation Phase 1][$species to "Minotaur"]]	
+
+	[[Satyr|Creation Phase 1][$species to "Satyr"]]	
+
+	[[Demon|Creation Phase 1][$species to "Demon"]]	
+
+	[[Phoenix|Creation Phase 1][$species to "Phoenix"]]
+
+	[[Anubian Jackal|Creation Phase 1][$species to "Anubian Jackal"]]
+
 		
-<<elseif $familyN == 10>>
-	<<set $speciesN to random(1,9)>>
+<<elseif $family == "Miscellaneous">>
 
-		<<if $speciesN == 1>>
-			<<set $species to "Red Panda">>
-			Your species is red panda.
+	[[Red Panda|Creation Phase 1][$species to "Red Panda"]]
 
-		<<elseif $speciesN == 2>>
-			<<set $species to "Giant Panda">>
-			Your species is giant panda.
-	
-		<<elseif $speciesN == 3>>
-			<<set $species to "Brown Bear">>
-			Your species is brown bear.
-			
-		<<elseif $speciesN == 4>>
-			<<set $species to "Black Bear">>
-			Your species is black bear.
-			
-		<<elseif $speciesN == 5>>
-			<<set $species to "Polar Bear">>
-			Your species is polar bear.
-			
-		<<elseif $speciesN == 6>>
-			<<set $species to "Hyena">>
-			Your species is hyena.
-			
-		<<elseif $speciesN == 7>>
-			<<set $species to "Mongoose">>
-			Your species is mongoose.
-			
-		<<elseif $speciesN == 8>>
-			<<set $species to "Fossa">>
-			Your species is fossa.
-			
-		<<elseif $speciesN == 9>>
-			<<set $species to "Ostrich/Emu">>
-			Your species is Ostritch/Emu.
-												
-		<</if>>
+	[[Giant Panda|Creation Phase 1][$species to "Giant Panda"]]
+
+	[[Brown Bear|Creation Phase 1][$species to "Brown Bear"]]	
+
+	[[Black Bear|Creation Phase 1][$species to "Black Bear"]]	
+
+	[[Polar Bear|Creation Phase 1][$species to "Polar Bear"]]	
+
+	[[Hyena|Creation Phase 1][$species to "Hyena"]]	
+
+	[[Mongoose|Creation Phase 1][$species to "Mongoose"]]	
+
+	[[Fossa|Creation Phase 1][$species to "Fossa"]]
+
+	[[Ostritch/Emu|Creation Phase 1][$species to "Ostritch/Emu"]]
+
 <</if>>
 
-<</nobr>>
 
-[[Creation Phase 1|Creation Phase 1]]
+
