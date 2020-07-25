@@ -1,0 +1,353 @@
+<<nobr>>
+
+/* Initialize vars and roll */
+
+<<set $colorSchemeN to random(1, 20)>>
+<<set $markingsN to random(1, 20)>>
+<<set $markingColorN to random(1,19)>>
+<<set $floofLevel to random(1,10)>>
+<<set $facialHairN to random(1, 10)>>
+<<set $facialHairType to random(1, 8)>>
+<<set $hairLengthN to random(1, 20)>>
+<<set $hairColorN to random(1, 19)>>
+<<set $eyeStyleN to random(1, 20)>>
+<<set $eyeColorN to random(1, 16)>>
+<<set $attachmentN to random(1, 20)>>
+<<set $tailSizeN to random(1, 12)>>
+<<set $bodyPiercingN to random(1, 12)>>
+
+/* Color Scheme Code */
+
+<<if $colorSchemeN == 1 || 2 || 3>>
+	<<set $colorScheme = "Coffee">>
+<<elseif $colorSchemeN == 4 || 5>>
+	<<set $colorScheme = "Toasted Marshmellow">>
+<<elseif $colorSchemeN == 6 || 7>>
+	<<set $colorScheme = "Fire">>
+<<elseif $colorSchemeN == 8>>
+	<<set $colorScheme = "Ocean Waters">>
+<<elseif $colorSchemeN == 9 || 10>>
+	<<set $colorScheme = "Fresh Bread">>
+<<elseif $colorSchemeN == 11>>
+	<<set $colorScheme = "Lush Foliage">>
+<<elseif $colorSchemeN == 12 || 13 || 14>>
+	<<set $colorScheme = "Oh god the night has eyes">>
+<<elseif $colorSchemeN == 15 || 16 || 17>>
+	<<set $colorScheme = "Snowy">>
+<<elseif $colorSchemeN == 18>>
+	<<set $colorScheme = "Amethyst">>
+<<elseif $colorSchemeN == 19 || 20>>
+	<<set $colorScheme = "Smoke Cloud">>
+<</if>>
+
+/* End Color Scheme Code */
+
+/* Markings Code */
+
+<<if $markingsN lte 12>>
+    <<set $markings = "Natural for Species">>
+<<elseif $markingsN == 13 || 14>>
+    <<set $markings = "Stripes">>
+<<elseif $markingsN == 15 || 16>>
+    <<set $markings = "Spots">>
+<<elseif $markingsN == 17 || 18>>
+    <<set $markings = "Exotic Pattern of Stripes">>
+<<elseif $markingsN == 19>>
+    <<set $markings = "Geometric Shapes">>
+<<elseif $markingsN == 20>>
+    <<set $markings = "Strictly Monochromatic">>
+<</if>>
+
+/* End Markings Code */
+
+/* Marking Color */
+
+<<if $markingColorN lte 5>>
+    <<set $markingColor = $colorScheme>>
+<<elseif $markingColorN == 6 || 7>>
+    <<set $markingColor = "White">>
+<<elseif $markingColorN == 8 || 9>>
+    <<set $markingColor = "Black">>
+<<elseif $markingColorN == 10 || 11>>
+    <<set $markingColor = "Brown">>
+<<elseif $markingColorN == 12>>
+    <<set $markingColor = "Grey">>
+<<elseif $markingColorN == 13>>
+    <<set $markingColor = "Blonde">>
+<<elseif $markingColorN == 14>>
+    <<set $markingColor = "Rust">>
+<<elseif $markingColorN == 15>>
+    <<set $markingColor = "Red">>
+<<elseif $markingColorN == 16>>
+    <<set $markingColor = "Yellow">>
+<<elseif $markingColorN == 17>>
+    <<set $markingColor = "Green">>
+<<elseif $markingColorN == 18>>
+    <<set $markingColor = "Blue">>
+<<elseif $markingColorN == 19>>
+    <<set $markingColor = "Purple">>
+<</if>>
+
+/* End Marking Color */
+
+/* Level of Floof already rolled. Floof Locations Code */
+
+<<for _i to 1; _i lte $floofLevel; _i++>>
+    <<set $floofLoop to random(1, 12)>>
+    <<if $floofLoop == 1>>
+        <<set $floofLocation += " Neck">>
+    <<elseif $floofLoop == 2>>
+        <<set $floofLocation += " Shoulders">>
+    <<elseif $floofLoop == 3>>
+        <<set $floofLocation += " Arms">>
+    <<elseif $floofLoop == 4>>
+        <<set $floofLocation += " Elbows">>
+    <<elseif $floofLoop == 5>>
+        <<set $floofLocation += " Hands and Feet">>
+    <<elseif $floofLoop == 6>>
+        <<set $floofLocation += " Chest">>
+    <<elseif $floofLoop == 7>>
+        <<set $floofLocation += " Belly">>
+    <<elseif $floofLoop == 8>>
+        <<set $floofLocation += " Tail">>
+    <<elseif $floofLoop == 9>>
+        <<set $floofLocation += " Butt">>
+    <<elseif $floofLoop == 10>>
+        <<set $floofLocation += " Pubic Area/Balls">>
+    <<elseif $floofLoop == 11>>
+        <<set $floofLocation += " Back">>
+    <<elseif $floofLoop == 12>>
+        <<set $floofLocation += " Legs">>
+    <</if>>
+<</for>>
+
+ /* Please fucking work. End Floof Location */
+
+/* Facial Hair Code */
+
+<<if $facialHairN lte 6>>
+    <<set $facialHair = "None">>
+<<else>>
+    <<if $facialHairType lte 3>>
+        <<set $facialHair = "Goatee">>
+    <<elseif $facialHairType == 4 || 5 || 6 || 7>>
+        <<set $facialHair = "Beard">>
+    <<elseif $facialHairType == 8>>
+        <<set $facialHair = "Moustache">>
+    <</if>>
+<</if>>
+
+/* End Facial Hair Code */
+
+/* Hair Length */
+
+<<if $hairLengthN lte 6>>
+    <<set $hairLength = "None/Fur">>
+<<elseif $hairLengthN == 7 || 8 || 9 || 10>>
+    <<set $hairLength = "Short">>
+<<elseif $hairLengthN == 11 || 12 || 13 || 14 || 15>>
+    <<set $hairLength = "Medium">>
+<<elseif $hairLengthN == 16 || 17 || 18>>
+    <<set $hairLength = "Long">>
+<<elseif $hairLengthN == 19 || 20>>
+    <<set $hairLength = "Really Long">>
+<</if>>
+
+/* End Hair Length  Code*/
+
+/* Hair Color Code */
+
+<<if $hairColorN lte 5>>
+    <<set $hairColor = $colorScheme>>
+<<elseif $hairColorN == 6 || 7>>
+    <<set $hairColor = "White">>
+<<elseif $hairColorN == 8 || 9>>
+    <<set $hairColor = "Black">>
+<<elseif $hairColorN == 10 || 11>>
+    <<set $hairColor = "Brown">>
+<<elseif $hairColorN == 12>>
+    <<set $hairColor = "Grey">>
+<<elseif $hairColorN == 13>>
+    <<set $hairColor = "Blonde">>
+<<elseif $hairColorN == 14>>
+    <<set $hairColor = "Hair Red">>
+<<elseif $hairColorN == 15>>
+    <<set $hairColor = "Red">>
+<<elseif $hairColorN == 16>>
+    <<set $hairColor = "Yellow">>
+<<elseif $hairColorN == 17>>
+    <<set $hairColor = "Green">>
+<<elseif $hairColorN == 18>>
+    <<set $hairColor = "Blue">>
+<<elseif $hairColorN == 19>>
+    <<set $hairColor = "Purple">>
+<</if>>
+
+/* End Hair Color Code */
+
+/* Eye Style Code */
+
+<<if $eyeStyleN lte 14>>
+    <<set $eyeStyle = "Standard">>
+<<else>>
+    <<set $exoticEyeN to random(1, 20)>>
+    <<if $exoticEyeN lte 4>>
+        <<set $eyeStyle = "Cat Eyes">>
+    <<elseif $exoticEyeN == 5 || 6 || 7>>
+        <<set $eyeStyle = "Goat Eyes">>
+    <<elseif $exoticEyeN == 8 || 9 || 10 || 11>>
+        <<set $eyeStyle = "Solid Color Eyes">>
+    <<elseif $exoticEyeN == 12 || 13>>
+        <<set $eyeStyle = "No Iris">>
+    <<elseif $exoticEyeN == 14 || 15 || 16>>
+        <<set $eyeStyle = "No Pupil">>
+    <<elseif $exoticEyeN == 17 || 18>>
+        <<set $eyeStyle = "Sclera Only">>
+    <<elseif $exoticEyeN == 19>>
+        <<set $eyeStyle = "Compound Eyes">>
+    <<elseif $exoticEyeN == 20>>
+        <<set $eyeStyle = "Cuttlefish Eyes">>
+    <</if>>
+<</if>>
+
+/* End Eye Style Code */
+
+/* Eye Color Code */
+
+<<if $eyeColorN == 1>>
+    <<set $eyeColor = "Light Blue">>
+<<elseif $eyeColorN == 2>>
+    <<set $eyeColor = "Dark Blue">>
+<<elseif $eyeColorN == 3>>
+    <<set $eyeColor = "Light Brown">>
+<<elseif $eyeColorN == 4>>
+    <<set $eyeColor = "Dark Brown">>
+<<elseif $eyeColorN == 5>>
+    <<set $eyeColor = "Grey">>
+<<elseif $eyeColorN == 6>>
+    <<set $eyeColor = "Green">>
+<<elseif $eyeColorN == 7>>
+    <<set $eyeColor = "Red">>
+<<elseif $eyeColorN == 8>>
+    <<set $eyeColor = "Orange">>
+<<elseif $eyeColorN == 9>>
+    <<set $eyeColor = "Yellow">>
+<<elseif $eyeColorN == 10>>
+    <<set $eyeColor = "Purple">>
+<<elseif $eyeColorN == 11>>
+    <<set $eyeColor = "Black">>
+<<elseif $eyeColorN == 12>>
+    <<set $eyeColor = "White">>    
+<<elseif $eyeColorN == 13>>
+    <<set $eyeColor = "Gold">>    
+<<elseif $eyeColorN == 14>>
+    <<set $eyeColor = "Silver">>    
+<<elseif $eyeColorN == 15>>
+    <<set $eyeColor = "Pink">>    
+<<elseif $eyeColorN == 16>>
+    <<set $eyeColor = "Mirror">>    
+<</if>>
+
+/* End Eye Color Code */
+
+/* Attachments Code */
+
+<<if $attachmentN lte 10>>
+    <<set $attachment = "None">>
+<<else>>
+    <<set $attachmentN to random(1, 13)>>
+    <<if $attachmentN == 1>>
+        <<set $attachment = "Horn Nubs">>
+    <<elseif $attachmentN == 2>>
+        <<set $attachment = "Horns">>
+    <<elseif $attachmentN == 3>>
+        <<set $attachment = "Scars">>
+    <<elseif $attachmentN == 4>>
+        <<set $attachment = "Large Claws">>
+    <<elseif $attachmentN == 5>>
+        <<set $attachment = "Hooves">>
+    <<elseif $attachmentN == 6>>
+        <<set $attachment = "Large Fangs">>
+    <<elseif $attachmentN == 7>>
+        <<set $attachment = "Wings">>
+    <<elseif $attachmentN == 8>>
+        <<set $attachment = "Extra Set of Arms">>
+    <<elseif $attachmentN == 9>>
+        <<set $attachment = "Halo/Corrupted Halo">>
+    <<elseif $attachmentN == 10>>
+        <<set $attachment = "Tentacles">>
+    <<elseif $attachmentN == 11>>
+        <<set $attachment = "Neon Flesh">>
+    <<elseif $attachmentN == 12>>
+        <<set $attachment = "Extra Long Tongue">>
+    <<elseif $attachmentN == 13>>
+        <<set $attachment = "Goo Body">>
+    <</if>>
+<</if>>
+
+/* End Attachments Code */
+
+/* Tail Size Code */
+
+<<if $tailSizeN == 1 || 2>>
+    <<set $tailSize = "Smol">>
+<<elseif $tailSizeN == 3 || 4>>
+    <<set $tailSize = "Li'l">>
+<<elseif $tailSizeN == 5 || 6 || 7>>
+    <<set $tailSize = "Tail">>
+<<elseif $tailSizeN == 8 || 9>>
+    <<set $tailSize = "O Tail">>
+<<elseif $tailSizeN == 10 || 11>>
+    <<set $tailSize = "TAIL">>
+<<elseif $tailSizeN == 12>>
+    <<set $tailSize = "T A I L">>
+<</if>>
+
+/* End Tail Size Code */
+
+/* Body Piercing Code */
+
+<<if $bodyPiercingN < 8>>
+    <<set $piercingLocation = "None">>
+<<else>>
+    <<for _i to 8; _i lte $bodyPiercingN; _i++>>
+    <<set $piercingLoop to random(1, 20)>>
+    <<if $piercingLoop == 1 || 2 || 3 || 4>>
+        <<set $piercingLocation += " Eyebrow">>
+    <<elseif $piercingLoop == 5 || 6 || 7 || 8 || 9>>
+        <<set $piercingLocation += " Ear/Ears">>
+    <<elseif $piercingLoop == 10 || 11>>
+        <<set $piercingLocation += " Bridge">>
+    <<elseif $piercingLoop == 12 || 13 || 14>>
+        <<set $piercingLocation += " Septum">>
+    <<elseif $piercingLoop == 15 || 16>>
+        <<set $piercingLocation += " Nostril">>
+    <<elseif $piercingLoop == 17>>
+        <<set $piercingLocation += " Lip">>
+    <<elseif $piercingLoop == 18>>
+        <<set $piercingLocation += " Tongue">>
+    <<elseif $piercingLoop == 19 || 20>>
+        <<set $piercingLocation += " Navel">>
+    <</if>>
+    <</for>>
+<</if>>
+
+<</nobr>>
+
+Color Scheme: $colorScheme
+Markings: $markings
+Marking Color: $markingColor
+Level of Floof: $floofLevel
+Floofy Location: $floofLocation
+Facial Hair: $facialHair
+Hair Length: $hairLength
+Hair Color: $hairColor
+Eye Style: $eyeStyle
+Eye Color: $eyeColor
+Attachments: $attachment
+Tail Size: $tailSize
+Body Piercings: $piercingLocation
+
+Do you want breasts?
+[[Yes|Breasts]]
+[[No|Penis Question]]

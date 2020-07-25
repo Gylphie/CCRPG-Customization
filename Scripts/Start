@@ -1,0 +1,45 @@
+Version 1.2.0
+
+Patch Notes: Added Mixed Family Hybridization functionality. Three-family in progress. Will tidy up visuals after implementation and testing.
+
+Still missing ability for multiple hair colors and ability for genital piercings.
+
+
+
+Give your character a name <<textbox "$name" "" "Family">>
+
+<<set $dick = false>>
+<<set $vagina = false>>
+<<set $boob = "Flat">>
+<<set $family to "">>
+<<set $species to "">>
+<<set $height to "">>
+<<set $muscle to "">>
+<<set $fat to "">>
+<<set $legs to "">>
+<<set $mysticism to "">>
+<<set $age to "">>
+<<set $floofLocation to "">>
+<<set $facialHair to "">>
+<<set $hairLength to "">>
+<<set $hairColor to "">>
+<<set $eyeStyle to "">>
+<<set $eyeColor to "">>
+<<set $attachment to "">>
+<<set $tailSize to "">>
+<<set $piercingLocation to "">>
+<<set $gpiercingLocation to "">>
+<<set $colorScheme to "">>
+<<set $markings to "">>
+<<set $markingColor to "">>
+<<set $floofLevel to "">>
+<<set $boob to "">>
+<<set $dickNumber to "">>
+<<set $dickStyle to "">>
+<<set $genitalCat to "">>
+<<set $dickSize to "">>
+<<set $ballSize to "">>
+<<set $sheath to "">>
+<<set $hybridization to "">>
+
+

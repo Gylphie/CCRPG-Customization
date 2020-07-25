@@ -1,0 +1,50 @@
+Name: $name
+<<if $hybridization == "">>
+Family: $family
+Species: $species
+<<elseif $hybridization == "Not Hybrid">>
+Family: $family
+Species: $species
+<<elseif $hybridization == "In-Family">>
+Family: $family
+Species: $hybrid1 - $hybrid2
+<<elseif $hybridization == "Mixed Family">>
+Family: $family1 - $family2
+Species $hybrid1 - $hybrid2
+<<elseif $hybridization == "Three Family">>
+Family: $family1 - $family2 - $family3
+Species: $hybrid1 - $hybrid2 - $hybrid3
+<</if>>
+Height: $height cm
+Muscle (1-10): $muscle
+Fat (1-10): $fat
+Legs: $legs
+Mysticism: $mysticism
+Age: $age
+Color Scheme: $colorScheme
+Markings: $markings
+Marking Color: $markingColor
+Level of Floof: $floofLevel
+Floofy Location: $floofLocation
+Facial Hair: $facialHair
+Hair Length: $hairLength
+Hair Color: $hairColor
+Eye Style: $eyeStyle
+Eye Color: $eyeColor
+Attachments: $attachment
+Tail Size: $tailSize
+Body Piercings: $piercingLocation
+Breasts: $boob
+<<if $dick>>
+Number of Dicks: $dickNumber
+Dick Style: $dickStyle
+Genital Category: $genitalCat
+Dick Size: $dickSize
+Ball Size: $ballSize
+Sheath Style: $sheath
+<</if>>
+<<if $vagina>>
+	Public Mound Size: $pubicMound
+	Clit Protusion: $clit
+	Labia Visibility: $labia
+<</if>>

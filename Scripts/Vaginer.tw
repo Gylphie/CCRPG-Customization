@@ -1,0 +1,54 @@
+<<nobr>>
+
+<<set $vagina = true>>
+<<set $pubicMoundN to random(1, 4)>>
+<<set $clitN to random(1, 5)>>
+<<set $labiaN to random(1,2)>>
+
+/* Pubic Mound Size */
+
+<<if $pubicMoundN == 1>>
+    <<set $pubicMound = "Flat">>
+<<elseif $pubicMoundN == 2>>
+    <<set $pubicMound = "Rounded">>
+<<elseif $pubicMoundN == 3>>
+    <<set $pubicMound = "Buldged">>
+<<elseif $pubicMoundN == 4>>
+    <<set $pubicMound = "Phat Pussy">>
+<</if>>
+
+/* End Pubic Mound Size */
+
+/* Clit Protusion */
+
+<<if $clitN == 1>>
+    <<set $clit = "No Protusion">>
+<<elseif $clitN == 2>>
+    <<set $clit = "Just Visible">>
+<<elseif $clitN == 3>>
+    <<set $clit = "Fingertip">>
+<<elseif $clitN == 4>>
+    <<set $clit = "First Knuckle">>
+<<elseif $clitN == 5>>
+    <<set $clit = "Pseudopenis">>
+<</if>>
+
+/* End Clit Protusion */
+
+/* Labia */
+
+<<if $labiaN == 1>>
+    <<set $labia = "Not Visible">>
+<<else>>
+    <<set $labia = "Visible">>
+<</if>>
+
+<</nobr>>
+
+/* End Labia */
+
+Public Mound Size: $pubicMound
+Clit Protusion: $clit
+Labia Visibility: $labia
+
+[[Go to character summary|Character Summary]]

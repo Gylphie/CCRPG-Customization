@@ -1,0 +1,44 @@
+<<nobr>>
+
+<<set $height to random(110, 300)>>
+<<set $muscle to random(1, 10)>>
+<<set $fat to random(1, 10)>>
+
+<<set $legsN to random(1, 10)>>
+	<<if $legsN lte 7>>
+		<<set $legs = "Digitigrade">>
+	<<else>>
+	<<set $legs = "Plantigrade">>
+	<</if>>
+
+<<set $mysticismN to random(1,9)>>
+	<<if $mysticismN lte 6>>
+		<<set $mysticism = "Mundane">>
+		<<set $age = random(22, 44)>>
+	<<elseif $mysticismN == 7>>
+		<<set $mysticism = "Magic Wielder">>
+		<<set $age = random(23, 550)>>
+	<<elseif $mysticismN == 8>>
+		<<set $mysticism = "Immortal">>
+		<<set $age = random(253, 20000)>>
+	<<elseif $mysticismN == 9>>
+		<<set $mysticism = "Elder Being">>
+		<<set $age = random(20000, 2147483646)>>
+		<</if>>
+		
+<</nobr>>
+
+Height: $height cm
+Muscle (1-10): $muscle
+Fat (1-10): $fat
+Legs: $legs
+Mysticism: $mysticism
+Age: $age
+
+[[Creation Phase 2|Creation Page 2]]
+
+
+
+
+
+

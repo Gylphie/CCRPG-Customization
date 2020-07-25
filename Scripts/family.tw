@@ -1,0 +1,83 @@
+<<nobr>>
+
+<<set $hybridN to random(1,20)>>
+
+<<if $hybridN <= 15>>
+
+<<set $hybridization = "Not Hybrid">>
+<<set $familyN to random(1,10)>>
+
+<<if $familyN == 1>>
+Your family is ''canine''.
+<<set $family to "Canine">>
+[[Species|Species]]
+
+<<elseif $familyN == 2>>
+<<set $family to "Feline">>
+Your family is ''feline''.
+[[Species|Species]]
+
+<<elseif $familyN == 3>>
+<<set $family to "Reptile/Amphibian">>
+Your family is ''Reptile/Amphibian''.
+[[Species|Species]]
+
+<<elseif $familyN == 4>>
+<<set $family to "Ungulate">>
+Your family is ''Ungulate''.
+[[Species|Species]]
+
+<<elseif $familyN == 5>>
+<<set $family to "Marine">>
+Your family is ''Marine''.
+[[Species|Species]]
+
+<<elseif $familyN == 6>>
+<<set $family to "Avian">>
+Your family is ''Avian''.
+[[Species|Species]]
+
+<<elseif $familyN == 7>>
+<<set $family to "Lapine/Mustelid/Rodent">>
+Your family is ''Lapine/Mustelid/Rodent''.
+[[Species|Species]]
+
+<<elseif $familyN == 8>>
+<<set $family to "Marsupial">>
+Your family is ''Marsupial''.
+[[Species|Species]]
+
+<<elseif $familyN == 9>>
+<<set $family to "Mythological">>
+Your family is ''Mythological''.
+[[Species|Species]]
+
+<<elseif $familyN == 10>>
+<<set $family to "Miscellaneous">>
+Your family is ''Miscellaneous''.
+[[Species|Species]]
+
+<</if>> /* End Not Hybrid if statements */
+
+<<elseif $hybridN == 16 || $hybridN == 17 || $hybridN == 18>> /* Hybrid Arguments below */
+<<set $hybridization = "In-Family">>
+You are an in-family hybrid.
+
+[[In-Family Hybridization|In-Family Hybridization]]
+
+<<elseif $hybridN == 19>>
+<<set $hybridization = "Mixed Family">>
+You are a mixed family hybrid.
+
+[[Mixed Family Hybridization|Mixed Family Hybridization]]
+
+<<elseif $hybridN == 20>>
+<<set $hybridization = "Three-Family">>
+You are a three family hybrid and are going to my life hell figured out how to code this.
+
+[[Three Family Hybridization|Three Family Hybridization]]
+
+<</if>>
+
+
+<</nobr>>

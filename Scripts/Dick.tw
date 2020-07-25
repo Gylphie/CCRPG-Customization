@@ -1,0 +1,186 @@
+<<nobr>>
+<<set $dick = true;>>
+<<set $dickNumberN to random(1, 18)>>
+<<set $dickStyleN to random(1,19)>>
+<<set $genitalCat to random(1, 3)>>
+<<set $dickSizeN to random(1,10)>>
+<<set $ballSizeN to random(1, 10)>>
+<<set $sheathN to random(1,10)>>
+<<set $genitialPiercingN to random(1,10)>>
+
+/* Number of dicks */
+
+<<if $dickNumberN lte 15>>
+    <<set $dickNumber = "1">>
+<<else>>
+    <<set $dickNumber = "2">>
+<</if>>
+
+/* End number of dicks */
+
+/* Dick Style */
+
+<<if $dickStyleN lte 5>>
+    <<set $dickStyle = "Species Appropriate">>
+<<elseif $dickStyleN == 6 || 7 || 8 || 9 || 10>>
+    <<set $dickStyle = "Human">>
+<<elseif $dickSizeN == 11 || 12 || 13>>
+    <<set $dickStyle = "Canine">>
+<<elseif $dickSizeN == 14 || 15>>
+    <<set $dickStyle = "Feline">>
+<<elseif $dickSizeN == 16 || 17 || 18>>
+    <<set $dickStyle = "Equine">>
+<<elseif $dickSizeN == 19>>
+    <<set $dickStyle = "Prehensile">>
+<</if>>
+
+/* End dick style */
+
+/* Dick/Ball Sizing */
+
+    /* Roll for sizing category */
+
+<<if $genitalCat == 1>>
+    <<set $sizeCat = "Realistic">>
+<<elseif $genitalCat == 2>>
+    <<set $sizeCat = "Furry Standard">>
+<<elseif $genitalCat == 3>>
+    <<set $sizeCat = "Hyper">>
+<</if>>
+
+ <<set $dickSizeN to random(1, 5)>> /* Roll for dick size */
+ <<set $ballSizeN to random(1, 5)>> /* Roll for ball size */
+
+    /* Realistic Rolling */
+
+<<if $sizeCat == "Realistic">>
+
+    /* Dick */
+    <<if $dickSizeN == 1>>
+        <<set $dickSize = "1/20 Height">>
+    <<elseif $dickSizeN == 2>>
+        <<set $dickSize = "1/15 Height">>
+    <<elseif $dickSizeN == 3>>
+        <<set $dickSize = "1/12 Height">>
+    <<elseif $dickSizeN == 4>>
+        <<set $dickSize = "1/10 Height">>
+    <<elseif $dickSizeN == 5>>
+        <<set $dickSize = "1/8 Height">>
+    <</if>>
+
+    /* Balls */
+    <<if $ballSizeN == 1 || 2>>
+        <<set $ballSize = "First Knuckle/Tiny">>
+    <<elseif $ballSizeN == 3 || 4>>
+        <<set $ballSize = "Second Knuckle/Small">>
+    <<elseif $ballSizeN == 5>>
+        <<set $ballSize = "Eyeball/Nuts">>
+    <</if>>
+
+<<elseif $sizeCat == "Furry Standard">>
+
+    /* Dick */
+    <<if $dickSizeN == 1>>
+        <<set $dickSize = "1/8 Height">>
+    <<elseif $dickSizeN == 2>>
+        <<set $dickSize = "1/7 Height">>
+    <<elseif $dickSizeN == 3>>
+        <<set $dickSize = "1/6 Height">>
+    <<elseif $dickSizeN == 4>>
+        <<set $dickSize = "1/5 Height">>
+    <<elseif $dickSizeN == 5>>
+        <<set $dickSize = "1/4 Height">>
+    <</if>>
+
+    /* Balls */
+    <<if $ballSizeN == 1>>
+        <<set $ballSize = "Eyeball/Nuts">>
+    <<elseif $ballSizeN == 2>>
+        <<set $ballSize = "Two Eyeballs/Balls">>
+    <<elseif $ballSizeN == 3>>
+        <<set $ballSize = "Half a fist/BALLS">>
+    <<elseif $ballSizeN == 4>>
+        <<set $ballSize = "Fist/O DAM BALLS">>
+    <<elseif $ballSizeN == 5>>
+        <<set $ballSize = "Two Fists/O LAWD HE BAWLIN">>
+    <</if>>
+
+<<elseif $sizeCat == "Hyper">>
+
+    /* Dick */
+    <<if $dickSizeN == 1>>
+        <<set $dickSize = "1/4">>
+    <<elseif $dickSizeN == 2>>
+        <<set $dickSize = "1/3">>
+    <<elseif $dickSizeN == 3>>
+        <<set $dickSize = "1/2">>
+    <<elseif $dickSizeN == 4>>
+        <<set $dickSize = "3/4">>
+    <<elseif $dickSizeN == 5>>
+        <<set $dickSize = "Same as height :eyes:">>
+    <</if>>
+
+    /* Balls */
+    <<if $ballSizeN == 1>>
+        <<set $ballSize = "Two Fists/O LAWD HE BAWLIN">>
+    <<elseif $ballSizeN == 2>>
+        <<set $ballSize = "Head/DAT HEFT">>
+    <<elseif $ballSizeN == 3>>
+        <<set $ballSize = "Bean Bag">>
+    <<elseif $ballSizeN == 4>>
+        <<set $ballSize = "Hug-Sized/Snugglesack">>
+    <<elseif $ballSizeN == 5>>
+        <<set $ballSize = "To the Floor/DROP IT LOW">>
+    <</if>>
+
+<</if>>
+
+/* End dick/ball sizing */
+
+/* Sheath */
+
+<<if $sheathN lte 5>>
+    <<set $sheath = "No Sheath">>
+<<elseif $sheathN == 6 || 7>>   
+    <<set $sheath = "Sheath">>
+<<elseif $sheathN == 8 || 9 || 10>>
+    <<set $sheath = "Slit">>
+<</if>>
+
+/* end Sheath */
+
+/* Genital Piercing WIP */
+/*
+<<if $genitialPiercingN lte 6>>
+    <<set $gpiercingLocation = "None">>
+<<else>>
+    <<for _i to 6; _i lte $genitalPiercingN; _i++>>
+    <<set $piercingLoop to random(1, 20)>>
+    <<if $piercingLoop == 1 || 2 || 3 || 4>>
+        <<set $gpiercingLocation += " Prince Albert">>
+    <<elseif $piercingLoop == 5 || 6 || 7 || 8>>
+        <<set $gpiercingLocation += " Jacob's Ladder">>
+    <<elseif $piercingLoop == 9 || 10>>
+        <<set $gpiercingLocation += " Guiche">>
+    <<elseif $piercingLoop == 11 || 12 || 13>>
+        <<set $gpiercingLocation += " Scrotal">>
+    <<elseif $piercingLoop == 14 || 15>>
+        <<set $gpiercingLocation += " Frenum">>
+    <<elseif $piercingLoop == 16>>
+        <<set $gpiercingLocation += " Dydoe">>
+    <<elseif $piercingLoop == 17 || 18>>
+        <<set $gpiercingLocation += " Lorum">>
+    <<elseif $piercingLoop == 19 || 20>>
+        <<set $gpiercingLocation += " Sheath/Foreskin">>
+    <</if>>
+    <</for>>
+<</if>> */
+
+<</nobr>>
+
+Number of Dicks: $dickNumber
+Dick Style: $dickStyle
+Genital Category: $sizeCat
+Dick Size: $dickSize
+Ball Size: $ballSize
+Sheath Style: $sheath

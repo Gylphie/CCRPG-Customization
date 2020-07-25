@@ -1,0 +1,1622 @@
+<<nobr>>
+
+<<set $family1N to random (1,10)>>
+<<set $family2N to random (1,10)>>
+<<set $family3N to random (1,10)>>
+
+<<if $family1N == 1>>
+Your family is ''canine''.
+<<set $family1 to "Canine">>
+<<set $hybrid1N to random(1,9)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Dog">>
+			Your species is dog.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Wolf">>
+			Your species is wolf.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Fox">>
+			Your species is fox.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Coyote">>
+			Your species is coyote.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Maned Wolf">>
+			Your species is maned wolf.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Jackal">>
+			Your species is wolf.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "African Wild Dog">>
+			Your species is african wild dog.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Tanuki">>
+			Your species is tanuki.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Dhole">>
+			Your species is dhole.
+<</if>>
+
+<<elseif $family1N == 2>>
+<<set $family1 to "Feline">>
+Your family is ''feline''.
+<<set $hybrid1N to random(1,13)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Housecat">>
+			Your species is housecat.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Tiger">>
+			Your species is tiger.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Lion">>
+			Your species is lion.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Mountain Lion">>
+			Your species is mountain lion.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Cheetah">>
+			Your species is cheetah.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Leopard">>
+			Your species is leopard.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Jaguar">>
+			Your species is jaguar.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Panther">>
+			Your species is panther.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Snow Leopard">>
+			Your species is snow leopard.
+
+        <<elseif $hybrid1N == 10>>
+			<<set $hybrid1 to "Lynx">>
+			Your species is lynx.
+
+        <<elseif $hybrid1N == 11>>
+			<<set $hybrid1 to "Sabretooth">>
+			Your species is sabretooth.
+
+        <<elseif $hybrid1N == 12>>
+			<<set $hybrid1 to "Ocelot">>
+			Your species is ocelot.
+
+        <<elseif $hybrid1N == 13>>
+			<<set $hybrid1 to "Caracal">>
+			Your species is caracal.                
+		<</if>>
+
+<<elseif $family1N == 3>>
+<<set $family1 to "Reptile/Amphibian">>
+Your family is ''Reptile/Amphibian''.
+<<set $hybrid1N to random(1,14)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Alligator">>
+			Your species is alligator.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Crocodile">>
+			Your species is crocodile.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Python/Viper/Cobra">>
+			Your species is Python/Viper/Cobra.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Constrictor">>
+			Your species is constrictor.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Iguana">>
+			Your species is iguana.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Bearded Dragon">>
+			Your species is bearded dragon.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Komodo Dragon">>
+			Your species is komodo dragon.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Gecko">>
+			Your species is gecko.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Frilled-Neck Lizard">>
+			Your species is frilled-neck lizard.
+
+        <<elseif $hybrid1N == 10>>
+			<<set $hybrid1 to "Monitor Lizard">>
+			Your species is monitor lizard.
+
+        <<elseif $hybrid1N == 11>>
+			<<set $hybrid1 to "Salamander">>
+			Your species is salamander.
+
+        <<elseif $hybrid1N == 12>>
+			<<set $hybrid1 to "Frog">>
+			Your species is frog.
+
+        <<elseif $hybrid1N == 13>>
+			<<set $hybrid1 to "T-Rex">>
+			Your species is T-Rex.
+
+        <<elseif $hybrid1N == 14>>
+			<<set $hybrid1 to "Raptor">>
+			Your species is raptor.                 
+		<</if>>
+
+<<elseif $family1N == 4>>
+<<set $family1 to "Ungulate">>
+Your family is ''Ungulate''.
+<<set $hybrid1N to random(1,15)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Horse">>
+			Your species is horse.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Bull">>
+			Your species is bull.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Zebra">>
+			Your species is zebra.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Goat">>
+			Your species is goat.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Ram">>
+			Your species is ram.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Deer">>
+			Your species is deer.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Elk">>
+			Your species is elk.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Donkey">>
+			Your species is donkey.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Rhino">>
+			Your species is rhino.
+				
+		<<elseif $hybrid1N == 10>>
+			<<set $hybrid1 to "Giraffe">>
+			Your species is giraffe.
+				
+		<<elseif $hybrid1N == 11>>
+			<<set $hybrid1 to "Tapir">>
+			Your species is tapir.
+				
+		<<elseif $hybrid1N == 12>>
+			<<set $hybrid1 to "Antelope">>
+			Your species is antelope.
+				
+		<<elseif $hybrid1N == 13>>
+			<<set $hybrid1 to "Boar">>
+			Your species is boar.
+						
+		<<elseif $hybrid1N == 14>>
+			<<set $hybrid1 to "Camel">>
+			Your species is camel.
+							
+		<<elseif $hybrid1N == 15>>
+			<<set $hybrid1 to "Llama">>
+			Your species is llama.
+						
+		<</if>>
+
+<<elseif $family1N == 5>>
+<<set $family1 to "Marine">>
+Your family is ''Marine''.
+<<set $hybrid1N to random(1,7)>>
+ <<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Orca">>
+			Your species is orca.
+
+	    <<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Dolphin">>
+			Your species is dolphin.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Seal">>
+			Your species is seal.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Sea Lion">>
+			Your species is sea lion.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Otter">>
+			Your species is otter.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Shark">>
+			Your species is shark.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Beaver">>
+			Your species is beaver.
+										
+		<</if>>
+
+         <<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Orca">>
+			Your species is orca.
+
+	    <<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Dolphin">>
+			Your species is dolphin.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Seal">>
+			Your species is seal.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Sea Lion">>
+			Your species is sea lion.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Otter">>
+			Your species is otter.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Shark">>
+			Your species is shark.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Beaver">>
+			Your species is beaver.
+										
+		<</if>>
+
+
+<<elseif $family1N == 6>>
+<<set $family1 to "Avian">>
+Your family is ''Avian''.
+<<set $hybrid1N to random(1,10)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Hawk/Falcon/Eagle">>
+			Your species is Hawk/Falcon/Eagle.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Osprey">>
+			Your species is ospy.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Owl">>
+			Your species is owl.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Duck/Goose/Swan">>
+			Your species is duck/goose/swan.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Hummingbird">>
+			Your species is hummingbird.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Flamingo">>
+			Your species is flamingo.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Vulture">>
+			Your species is vulture.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Parrot">>
+			Your species is parrot.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Toucan">>
+			Your species is toucan.
+				
+		<<elseif $hybrid1N == 10>>
+			<<set $hybrid1 to "Finch">>
+			Your species is finch.
+										
+		<</if>>
+
+
+<<elseif $family1N == 7>>
+<<set $family1 to "Lapine/Mustelid/Rodent">>
+Your family is ''Lapine/Mustelid/Rodent''.
+<<set $hybrid1N to random(1,13)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Rat/Mouse">>
+			Your species is rat/mouse.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Rabbit">>
+			Your species is rabbit.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Weasel">>
+			Your species is weasel.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Bat">>
+			Your species is bat.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Stoat">>
+			Your species is stoat.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Wolverine">>
+			Your species is wolverine.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Capybara">>
+			Your species is capybara.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Squirrel">>
+			Your species is squirrel.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Chipmunk">>
+			Your species is chipmunk.
+				
+		<<elseif $hybrid1N == 10>>
+			<<set $hybrid1 to "Chinchilla">>
+			Your species is chinchilla.
+				
+		<<elseif $hybrid1N == 11>>
+			<<set $hybrid1 to "Badger">>
+			Your species is badger.
+				
+		<<elseif $hybrid1N == 12>>
+			<<set $hybrid1 to "Marten">>
+			Your species is marten.
+				
+		<<elseif $hybrid1N == 13>>
+			<<set $hybrid1 to "Otter">>
+			Your species is otter.
+							
+		<</if>>
+
+<<elseif $family1N == 8>>
+<<set $family1 to "Marsupial">>
+Your family is ''Marsupial''.
+<<set $hybrid1N to random(1,7)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Kangaroo">>
+			Your species is kangaroo.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Opossum">>
+			Your species is opossum.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Bandicoot">>
+			Your species is bandicoot.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Numbat">>
+			Your species is numbat.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Tasmanian Devil">>
+			Your species is Tasmanian devil.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Wombat">>
+			Your species is wombat.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Koala">>
+			Your species is koala.
+										
+		<</if>>
+
+
+<<elseif $family1N == 9>>
+<<set $family1 to "Mythological">>
+Your family is ''Mythological''.
+<<set $hybrid1N to random(1,14)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Western Dragon">>
+			Your species is western dragon.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Eastern Dragon">>
+			Your species is eastern dragon.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Griffin">>
+			Your species is griffin.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Hydra">>
+			Your species is hydra.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Unicorn">>
+			Your species is unicorn.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Cerberus/Hellhound">>
+			Your species is Cerberus/Hellhound.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Catoblepas">>
+			Your species is catoblepas.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Manticore">>
+			Your species is manticore.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Sphinx">>
+			Your species is sphinx.
+				
+		<<elseif $hybrid1N == 10>>
+			<<set $hybrid1 to "Minotaur">>
+			Your species is minotaur.
+				
+		<<elseif $hybrid1N == 11>>
+			<<set $hybrid1 to "Satyr">>
+			Your species is satyr.
+				
+		<<elseif $hybrid1N == 12>>
+			<<set $hybrid1 to "Demon">>
+			Your species is demon.
+				
+		<<elseif $hybrid1N == 13>>
+			<<set $hybrid1 to "Phoenix">>
+			Your species is phoenix.
+						
+		<<elseif $hybrid1N == 14>>
+			<<set $hybrid1 to "Anubian Jackal">>
+			Your species is Anubian jackal.
+
+        <</if>>
+
+
+<<elseif $family1N == 10>>
+<<set $family1 to "Miscellaneous">>
+Your family is ''Miscellaneous''.
+<<set $hybrid1N to random(1,9)>>
+<<if $hybrid1N == 1>>
+			<<set $hybrid1 to "Red Panda">>
+			Your species is red panda.
+
+		<<elseif $hybrid1N == 2>>
+			<<set $hybrid1 to "Giant Panda">>
+			Your species is giant panda.
+	
+		<<elseif $hybrid1N == 3>>
+			<<set $hybrid1 to "Brown Bear">>
+			Your species is brown bear.
+			
+		<<elseif $hybrid1N == 4>>
+			<<set $hybrid1 to "Black Bear">>
+			Your species is black bear.
+			
+		<<elseif $hybrid1N == 5>>
+			<<set $hybrid1 to "Polar Bear">>
+			Your species is polar bear.
+			
+		<<elseif $hybrid1N == 6>>
+			<<set $hybrid1 to "Hyena">>
+			Your species is hyena.
+			
+		<<elseif $hybrid1N == 7>>
+			<<set $hybrid1 to "Mongoose">>
+			Your species is mongoose.
+			
+		<<elseif $hybrid1N == 8>>
+			<<set $hybrid1 to "Fossa">>
+			Your species is fossa.
+			
+		<<elseif $hybrid1N == 9>>
+			<<set $hybrid1 to "Ostrich/Emu">>
+			Your species is Ostritch/Emu.
+												
+		<</if>>
+
+<</if>> /* End family 1 statements */
+
+<<if $family2N == 1>>
+Your family is ''canine''.
+<<set $family2 to "Canine">>
+<<set $hybrid2N to random(1,9)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Dog">>
+			Your species is dog.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Wolf">>
+			Your species is wolf.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Fox">>
+			Your species is fox.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Coyote">>
+			Your species is coyote.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Maned Wolf">>
+			Your species is maned wolf.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Jackal">>
+			Your species is wolf.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "African Wild Dog">>
+			Your species is african wild dog.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Tanuki">>
+			Your species is tanuki.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Dhole">>
+			Your species is dhole.
+<</if>>
+
+<<elseif $family2N == 2>>
+<<set $family2 to "Feline">>
+Your family is ''feline''.
+<<set $hybrid2N to random(1,13)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Housecat">>
+			Your species is housecat.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Tiger">>
+			Your species is tiger.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Lion">>
+			Your species is lion.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Mountain Lion">>
+			Your species is mountain lion.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Cheetah">>
+			Your species is cheetah.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Leopard">>
+			Your species is leopard.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Jaguar">>
+			Your species is jaguar.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Panther">>
+			Your species is panther.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Snow Leopard">>
+			Your species is snow leopard.
+
+        <<elseif $hybrid2N == 10>>
+			<<set $hybrid2 to "Lynx">>
+			Your species is lynx.
+
+        <<elseif $hybrid2N == 11>>
+			<<set $hybrid2 to "Sabretooth">>
+			Your species is sabretooth.
+
+        <<elseif $hybrid2N == 12>>
+			<<set $hybrid2 to "Ocelot">>
+			Your species is ocelot.
+
+        <<elseif $hybrid2N == 13>>
+			<<set $hybrid2 to "Caracal">>
+			Your species is caracal.                
+		<</if>>
+
+<<elseif $family2N == 3>>
+<<set $family2 to "Reptile/Amphibian">>
+Your family is ''Reptile/Amphibian''.
+<<set $hybrid2N to random(1,14)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Alligator">>
+			Your species is alligator.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Crocodile">>
+			Your species is crocodile.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Python/Viper/Cobra">>
+			Your species is Python/Viper/Cobra.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Constrictor">>
+			Your species is constrictor.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Iguana">>
+			Your species is iguana.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Bearded Dragon">>
+			Your species is bearded dragon.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Komodo Dragon">>
+			Your species is komodo dragon.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Gecko">>
+			Your species is gecko.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Frilled-Neck Lizard">>
+			Your species is frilled-neck lizard.
+
+        <<elseif $hybrid2N == 10>>
+			<<set $hybrid2 to "Monitor Lizard">>
+			Your species is monitor lizard.
+
+        <<elseif $hybrid2N == 11>>
+			<<set $hybrid2 to "Salamander">>
+			Your species is salamander.
+
+        <<elseif $hybrid2N == 12>>
+			<<set $hybrid2 to "Frog">>
+			Your species is frog.
+
+        <<elseif $hybrid2N == 13>>
+			<<set $hybrid2 to "T-Rex">>
+			Your species is T-Rex.
+
+        <<elseif $hybrid2N == 14>>
+			<<set $hybrid2 to "Raptor">>
+			Your species is raptor.                 
+		<</if>>
+
+<<elseif $family2N == 4>>
+<<set $family2 to "Ungulate">>
+Your family is ''Ungulate''.
+<<set $hybrid2N to random(1,15)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Horse">>
+			Your species is horse.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Bull">>
+			Your species is bull.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Zebra">>
+			Your species is zebra.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Goat">>
+			Your species is goat.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Ram">>
+			Your species is ram.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Deer">>
+			Your species is deer.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Elk">>
+			Your species is elk.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Donkey">>
+			Your species is donkey.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Rhino">>
+			Your species is rhino.
+				
+		<<elseif $hybrid2N == 10>>
+			<<set $hybrid2 to "Giraffe">>
+			Your species is giraffe.
+				
+		<<elseif $hybrid2N == 11>>
+			<<set $hybrid2 to "Tapir">>
+			Your species is tapir.
+				
+		<<elseif $hybrid2N == 12>>
+			<<set $hybrid2 to "Antelope">>
+			Your species is antelope.
+				
+		<<elseif $hybrid2N == 13>>
+			<<set $hybrid2 to "Boar">>
+			Your species is boar.
+						
+		<<elseif $hybrid2N == 14>>
+			<<set $hybrid2 to "Camel">>
+			Your species is camel.
+							
+		<<elseif $hybrid2N == 15>>
+			<<set $hybrid2 to "Llama">>
+			Your species is llama.
+						
+		<</if>>
+
+<<elseif $family2N == 5>>
+<<set $family2 to "Marine">>
+Your family is ''Marine''.
+<<set $hybrid2N to random(1,7)>>
+ <<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Orca">>
+			Your species is orca.
+
+	    <<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Dolphin">>
+			Your species is dolphin.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Seal">>
+			Your species is seal.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Sea Lion">>
+			Your species is sea lion.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Otter">>
+			Your species is otter.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Shark">>
+			Your species is shark.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Beaver">>
+			Your species is beaver.
+										
+		<</if>>
+
+         <<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Orca">>
+			Your species is orca.
+
+	    <<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Dolphin">>
+			Your species is dolphin.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Seal">>
+			Your species is seal.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Sea Lion">>
+			Your species is sea lion.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Otter">>
+			Your species is otter.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Shark">>
+			Your species is shark.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Beaver">>
+			Your species is beaver.
+										
+		<</if>>
+
+
+<<elseif $family2N == 6>>
+<<set $family2 to "Avian">>
+Your family is ''Avian''.
+<<set $hybrid2N to random(1,10)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Hawk/Falcon/Eagle">>
+			Your species is Hawk/Falcon/Eagle.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Osprey">>
+			Your species is ospy.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Owl">>
+			Your species is owl.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Duck/Goose/Swan">>
+			Your species is duck/goose/swan.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Hummingbird">>
+			Your species is hummingbird.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Flamingo">>
+			Your species is flamingo.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Vulture">>
+			Your species is vulture.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Parrot">>
+			Your species is parrot.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Toucan">>
+			Your species is toucan.
+				
+		<<elseif $hybrid2N == 10>>
+			<<set $hybrid2 to "Finch">>
+			Your species is finch.
+										
+		<</if>>
+
+
+<<elseif $family2N == 7>>
+<<set $family2 to "Lapine/Mustelid/Rodent">>
+Your family is ''Lapine/Mustelid/Rodent''.
+<<set $hybrid2N to random(1,13)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Rat/Mouse">>
+			Your species is rat/mouse.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Rabbit">>
+			Your species is rabbit.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Weasel">>
+			Your species is weasel.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Bat">>
+			Your species is bat.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Stoat">>
+			Your species is stoat.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Wolverine">>
+			Your species is wolverine.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Capybara">>
+			Your species is capybara.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Squirrel">>
+			Your species is squirrel.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Chipmunk">>
+			Your species is chipmunk.
+				
+		<<elseif $hybrid2N == 10>>
+			<<set $hybrid2 to "Chinchilla">>
+			Your species is chinchilla.
+				
+		<<elseif $hybrid2N == 11>>
+			<<set $hybrid2 to "Badger">>
+			Your species is badger.
+				
+		<<elseif $hybrid2N == 12>>
+			<<set $hybrid2 to "Marten">>
+			Your species is marten.
+				
+		<<elseif $hybrid2N == 13>>
+			<<set $hybrid2 to "Otter">>
+			Your species is otter.
+							
+		<</if>>
+
+<<elseif $family2N == 8>>
+<<set $family2 to "Marsupial">>
+Your family is ''Marsupial''.
+<<set $hybrid2N to random(1,7)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Kangaroo">>
+			Your species is kangaroo.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Opossum">>
+			Your species is opossum.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Bandicoot">>
+			Your species is bandicoot.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Numbat">>
+			Your species is numbat.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Tasmanian Devil">>
+			Your species is Tasmanian devil.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Wombat">>
+			Your species is wombat.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Koala">>
+			Your species is koala.
+										
+		<</if>>
+
+
+<<elseif $family2N == 9>>
+<<set $family2 to "Mythological">>
+Your family is ''Mythological''.
+<<set $hybrid2N to random(1,14)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Western Dragon">>
+			Your species is western dragon.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Eastern Dragon">>
+			Your species is eastern dragon.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Griffin">>
+			Your species is griffin.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Hydra">>
+			Your species is hydra.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Unicorn">>
+			Your species is unicorn.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Cerberus/Hellhound">>
+			Your species is Cerberus/Hellhound.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Catoblepas">>
+			Your species is catoblepas.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Manticore">>
+			Your species is manticore.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Sphinx">>
+			Your species is sphinx.
+				
+		<<elseif $hybrid2N == 10>>
+			<<set $hybrid2 to "Minotaur">>
+			Your species is minotaur.
+				
+		<<elseif $hybrid2N == 11>>
+			<<set $hybrid2 to "Satyr">>
+			Your species is satyr.
+				
+		<<elseif $hybrid2N == 12>>
+			<<set $hybrid2 to "Demon">>
+			Your species is demon.
+				
+		<<elseif $hybrid2N == 13>>
+			<<set $hybrid2 to "Phoenix">>
+			Your species is phoenix.
+						
+		<<elseif $hybrid2N == 14>>
+			<<set $hybrid2 to "Anubian Jackal">>
+			Your species is Anubian jackal.
+
+        <</if>>
+
+
+<<elseif $family2N == 10>>
+<<set $family2 to "Miscellaneous">>
+Your family is ''Miscellaneous''.
+<<set $hybrid2N to random(1,9)>>
+<<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Red Panda">>
+			Your species is red panda.
+
+		<<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Giant Panda">>
+			Your species is giant panda.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Brown Bear">>
+			Your species is brown bear.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Black Bear">>
+			Your species is black bear.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Polar Bear">>
+			Your species is polar bear.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Hyena">>
+			Your species is hyena.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Mongoose">>
+			Your species is mongoose.
+			
+		<<elseif $hybrid2N == 8>>
+			<<set $hybrid2 to "Fossa">>
+			Your species is fossa.
+			
+		<<elseif $hybrid2N == 9>>
+			<<set $hybrid2 to "Ostrich/Emu">>
+			Your species is Ostritch/Emu.
+												
+		<</if>>
+
+<</if>> /* End family 2 statements */
+
+<<if $family3N == 1>>
+Your family is ''canine''.
+<<set $family3 to "Canine">>
+<<set $hybrid3N to random(1,9)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Dog">>
+			Your species is dog.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Wolf">>
+			Your species is wolf.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Fox">>
+			Your species is fox.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Coyote">>
+			Your species is coyote.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Maned Wolf">>
+			Your species is maned wolf.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Jackal">>
+			Your species is wolf.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "African Wild Dog">>
+			Your species is african wild dog.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Tanuki">>
+			Your species is tanuki.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Dhole">>
+			Your species is dhole.
+<</if>>
+
+<<elseif $family3N == 2>>
+<<set $family3 to "Feline">>
+Your family is ''feline''.
+<<set $hybrid3N to random(1,13)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Housecat">>
+			Your species is housecat.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Tiger">>
+			Your species is tiger.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Lion">>
+			Your species is lion.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Mountain Lion">>
+			Your species is mountain lion.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Cheetah">>
+			Your species is cheetah.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Leopard">>
+			Your species is leopard.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Jaguar">>
+			Your species is jaguar.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Panther">>
+			Your species is panther.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Snow Leopard">>
+			Your species is snow leopard.
+
+        <<elseif $hybrid3N == 10>>
+			<<set $hybrid3 to "Lynx">>
+			Your species is lynx.
+
+        <<elseif $hybrid3N == 11>>
+			<<set $hybrid3 to "Sabretooth">>
+			Your species is sabretooth.
+
+        <<elseif $hybrid3N == 12>>
+			<<set $hybrid3 to "Ocelot">>
+			Your species is ocelot.
+
+        <<elseif $hybrid3N == 13>>
+			<<set $hybrid3 to "Caracal">>
+			Your species is caracal.                
+		<</if>>
+
+<<elseif $family3N == 3>>
+<<set $family3 to "Reptile/Amphibian">>
+Your family is ''Reptile/Amphibian''.
+<<set $hybrid3N to random(1,14)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Alligator">>
+			Your species is alligator.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Crocodile">>
+			Your species is crocodile.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Python/Viper/Cobra">>
+			Your species is Python/Viper/Cobra.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Constrictor">>
+			Your species is constrictor.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Iguana">>
+			Your species is iguana.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Bearded Dragon">>
+			Your species is bearded dragon.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Komodo Dragon">>
+			Your species is komodo dragon.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Gecko">>
+			Your species is gecko.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Frilled-Neck Lizard">>
+			Your species is frilled-neck lizard.
+
+        <<elseif $hybrid3N == 10>>
+			<<set $hybrid3 to "Monitor Lizard">>
+			Your species is monitor lizard.
+
+        <<elseif $hybrid3N == 11>>
+			<<set $hybrid3 to "Salamander">>
+			Your species is salamander.
+
+        <<elseif $hybrid3N == 12>>
+			<<set $hybrid3 to "Frog">>
+			Your species is frog.
+
+        <<elseif $hybrid3N == 13>>
+			<<set $hybrid3 to "T-Rex">>
+			Your species is T-Rex.
+
+        <<elseif $hybrid3N == 14>>
+			<<set $hybrid3 to "Raptor">>
+			Your species is raptor.                 
+		<</if>>
+
+<<elseif $family3N == 4>>
+<<set $family3 to "Ungulate">>
+Your family is ''Ungulate''.
+<<set $hybrid3N to random(1,15)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Horse">>
+			Your species is horse.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Bull">>
+			Your species is bull.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Zebra">>
+			Your species is zebra.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Goat">>
+			Your species is goat.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Ram">>
+			Your species is ram.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Deer">>
+			Your species is deer.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Elk">>
+			Your species is elk.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Donkey">>
+			Your species is donkey.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Rhino">>
+			Your species is rhino.
+				
+		<<elseif $hybrid3N == 10>>
+			<<set $hybrid3 to "Giraffe">>
+			Your species is giraffe.
+				
+		<<elseif $hybrid3N == 11>>
+			<<set $hybrid3 to "Tapir">>
+			Your species is tapir.
+				
+		<<elseif $hybrid3N == 12>>
+			<<set $hybrid3 to "Antelope">>
+			Your species is antelope.
+				
+		<<elseif $hybrid3N == 13>>
+			<<set $hybrid3 to "Boar">>
+			Your species is boar.
+						
+		<<elseif $hybrid3N == 14>>
+			<<set $hybrid3 to "Camel">>
+			Your species is camel.
+							
+		<<elseif $hybrid3N == 15>>
+			<<set $hybrid3 to "Llama">>
+			Your species is llama.
+						
+		<</if>>
+
+<<elseif $family3N == 5>>
+<<set $family3 to "Marine">>
+Your family is ''Marine''.
+<<set $hybrid3N to random(1,7)>>
+ <<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Orca">>
+			Your species is orca.
+
+	    <<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Dolphin">>
+			Your species is dolphin.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Seal">>
+			Your species is seal.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Sea Lion">>
+			Your species is sea lion.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Otter">>
+			Your species is otter.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Shark">>
+			Your species is shark.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Beaver">>
+			Your species is beaver.
+										
+		<</if>>
+
+         <<if $hybrid2N == 1>>
+			<<set $hybrid2 to "Orca">>
+			Your species is orca.
+
+	    <<elseif $hybrid2N == 2>>
+			<<set $hybrid2 to "Dolphin">>
+			Your species is dolphin.
+	
+		<<elseif $hybrid2N == 3>>
+			<<set $hybrid2 to "Seal">>
+			Your species is seal.
+			
+		<<elseif $hybrid2N == 4>>
+			<<set $hybrid2 to "Sea Lion">>
+			Your species is sea lion.
+			
+		<<elseif $hybrid2N == 5>>
+			<<set $hybrid2 to "Otter">>
+			Your species is otter.
+			
+		<<elseif $hybrid2N == 6>>
+			<<set $hybrid2 to "Shark">>
+			Your species is shark.
+			
+		<<elseif $hybrid2N == 7>>
+			<<set $hybrid2 to "Beaver">>
+			Your species is beaver.
+										
+		<</if>>
+
+
+<<elseif $family3N == 6>>
+<<set $family3 to "Avian">>
+Your family is ''Avian''.
+<<set $hybrid3N to random(1,10)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Hawk/Falcon/Eagle">>
+			Your species is Hawk/Falcon/Eagle.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Osprey">>
+			Your species is ospy.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Owl">>
+			Your species is owl.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Duck/Goose/Swan">>
+			Your species is duck/goose/swan.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Hummingbird">>
+			Your species is hummingbird.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Flamingo">>
+			Your species is flamingo.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Vulture">>
+			Your species is vulture.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Parrot">>
+			Your species is parrot.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Toucan">>
+			Your species is toucan.
+				
+		<<elseif $hybrid3N == 10>>
+			<<set $hybrid3 to "Finch">>
+			Your species is finch.
+										
+		<</if>>
+
+
+<<elseif $family3N == 7>>
+<<set $family3 to "Lapine/Mustelid/Rodent">>
+Your family is ''Lapine/Mustelid/Rodent''.
+<<set $hybrid3N to random(1,13)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Rat/Mouse">>
+			Your species is rat/mouse.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Rabbit">>
+			Your species is rabbit.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Weasel">>
+			Your species is weasel.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Bat">>
+			Your species is bat.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Stoat">>
+			Your species is stoat.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Wolverine">>
+			Your species is wolverine.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Capybara">>
+			Your species is capybara.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Squirrel">>
+			Your species is squirrel.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Chipmunk">>
+			Your species is chipmunk.
+				
+		<<elseif $hybrid3N == 10>>
+			<<set $hybrid3 to "Chinchilla">>
+			Your species is chinchilla.
+				
+		<<elseif $hybrid3N == 11>>
+			<<set $hybrid3 to "Badger">>
+			Your species is badger.
+				
+		<<elseif $hybrid3N == 12>>
+			<<set $hybrid3 to "Marten">>
+			Your species is marten.
+				
+		<<elseif $hybrid3N == 13>>
+			<<set $hybrid3 to "Otter">>
+			Your species is otter.
+							
+		<</if>>
+
+<<elseif $family3N == 8>>
+<<set $family3 to "Marsupial">>
+Your family is ''Marsupial''.
+<<set $hybrid3N to random(1,7)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Kangaroo">>
+			Your species is kangaroo.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Opossum">>
+			Your species is opossum.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Bandicoot">>
+			Your species is bandicoot.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Numbat">>
+			Your species is numbat.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Tasmanian Devil">>
+			Your species is Tasmanian devil.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Wombat">>
+			Your species is wombat.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Koala">>
+			Your species is koala.
+										
+		<</if>>
+
+
+<<elseif $family3N == 9>>
+<<set $family3 to "Mythological">>
+Your family is ''Mythological''.
+<<set $hybrid3N to random(1,14)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Western Dragon">>
+			Your species is western dragon.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Eastern Dragon">>
+			Your species is eastern dragon.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Griffin">>
+			Your species is griffin.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Hydra">>
+			Your species is hydra.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Unicorn">>
+			Your species is unicorn.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Cerberus/Hellhound">>
+			Your species is Cerberus/Hellhound.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Catoblepas">>
+			Your species is catoblepas.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Manticore">>
+			Your species is manticore.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Sphinx">>
+			Your species is sphinx.
+				
+		<<elseif $hybrid3N == 10>>
+			<<set $hybrid3 to "Minotaur">>
+			Your species is minotaur.
+				
+		<<elseif $hybrid3N == 11>>
+			<<set $hybrid3 to "Satyr">>
+			Your species is satyr.
+				
+		<<elseif $hybrid3N == 12>>
+			<<set $hybrid3 to "Demon">>
+			Your species is demon.
+				
+		<<elseif $hybrid3N == 13>>
+			<<set $hybrid3 to "Phoenix">>
+			Your species is phoenix.
+						
+		<<elseif $hybrid3N == 14>>
+			<<set $hybrid3 to "Anubian Jackal">>
+			Your species is Anubian jackal.
+
+        <</if>>
+
+
+<<elseif $family3N == 10>>
+<<set $family3 to "Miscellaneous">>
+Your family is ''Miscellaneous''.
+<<set $hybrid3N to random(1,9)>>
+<<if $hybrid3N == 1>>
+			<<set $hybrid3 to "Red Panda">>
+			Your species is red panda.
+
+		<<elseif $hybrid3N == 2>>
+			<<set $hybrid3 to "Giant Panda">>
+			Your species is giant panda.
+	
+		<<elseif $hybrid3N == 3>>
+			<<set $hybrid3 to "Brown Bear">>
+			Your species is brown bear.
+			
+		<<elseif $hybrid3N == 4>>
+			<<set $hybrid3 to "Black Bear">>
+			Your species is black bear.
+			
+		<<elseif $hybrid3N == 5>>
+			<<set $hybrid3 to "Polar Bear">>
+			Your species is polar bear.
+			
+		<<elseif $hybrid3N == 6>>
+			<<set $hybrid3 to "Hyena">>
+			Your species is hyena.
+			
+		<<elseif $hybrid3N == 7>>
+			<<set $hybrid3 to "Mongoose">>
+			Your species is mongoose.
+			
+		<<elseif $hybrid3N == 8>>
+			<<set $hybrid3 to "Fossa">>
+			Your species is fossa.
+			
+		<<elseif $hybrid3N == 9>>
+			<<set $hybrid3 to "Ostrich/Emu">>
+			Your species is Ostritch/Emu.
+												
+		<</if>>
+
+<</if>> /* End family 3 statements */
+
+Your families are $family1 and $family2 and $family3. Your species are $hybrid1 and $hybrid2 and $hybrid3.
+
+[[Creation Phase 1|Creation Phase 1]]
+
+<</nobr>>
